@@ -30,10 +30,6 @@ export default function Signup() {
     // eslint-disable-next-line
   }, [passwordControl])
 
-  useEffect(() => {
-    console.log(user, password, passwordControl)
-  })
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
