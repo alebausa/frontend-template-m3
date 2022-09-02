@@ -1,28 +1,47 @@
-# API documentation
+# Project's name
 
-## getAllProjects()
+## Description
 
-Returns a promise with the data. ⚠️ **Must be called in an async function**
-```js
-const data = await fakeApi.getAllProjects();
+This application is called XXX. It is used for ...
+
+> Add a picture (logo, design, actual screen, gif, etc, whichever you prefer.)
+![](picture.png)
+
+---
+## Instructions
+
+When cloning the project, change the <code>sample.env</code> file name for <code>.env</code>. The project will run on **PORT 3000**.
+
+Then, run:
+```bash
+npm install
 ```
 
-## getProject(id)
-Returns a promise with the selected project. ⚠️ **Must be called in an async function**
-
-It needs an argument: the id of the selected project
-```js
-const data = await fakeApi.getProject(id);
+To start the project run:
+```bash
+npm run start
 ```
 
-### Data model
+---
+## User stories 
 
-Each document has the following properties:
+### MVP
 
-```js
-  {
-    title: "String",
-    description: "String",
-    _id: 1, //number
-  }
-```
+- User can sign up and create a new account
+- User can login
+- User can log out
+
+### Backlog
+
+- User can ...
+
+---
+
+## Useful links
+
+- [Presentation slides]()
+- [Backend repository]()
+- [Backend deploy]()
+- [Deployed app]()
+
+
